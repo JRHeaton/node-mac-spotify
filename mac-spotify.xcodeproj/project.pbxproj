@@ -6,8 +6,105 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5210836E191D0497005BFE0B /* module.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5210836C191D0497005BFE0B /* module.mm */; };
+		5210839F191D0518005BFE0B /* android-ifaddrs.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108371191D0518005BFE0B /* android-ifaddrs.h */; };
+		521083A0191D0518005BFE0B /* ares.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108372191D0518005BFE0B /* ares.h */; };
+		521083A1191D0518005BFE0B /* ares_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108373191D0518005BFE0B /* ares_version.h */; };
+		521083A2191D0518005BFE0B /* nameser.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108376191D0518005BFE0B /* nameser.h */; };
+		521083A3191D0518005BFE0B /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108377191D0518005BFE0B /* node.h */; };
+		521083A4191D0518005BFE0B /* node_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108378191D0518005BFE0B /* node_buffer.h */; };
+		521083A5191D0518005BFE0B /* node_internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108379191D0518005BFE0B /* node_internals.h */; };
+		521083A6191D0518005BFE0B /* node_object_wrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210837A191D0518005BFE0B /* node_object_wrap.h */; };
+		521083A7191D0518005BFE0B /* node_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210837B191D0518005BFE0B /* node_version.h */; };
+		521083A8191D0518005BFE0B /* opensslconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210837D191D0518005BFE0B /* opensslconf.h */; };
+		521083A9191D0518005BFE0B /* pthread-fixes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210837E191D0518005BFE0B /* pthread-fixes.h */; };
+		521083AA191D0518005BFE0B /* stdint-msvc2008.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210837F191D0518005BFE0B /* stdint-msvc2008.h */; };
+		521083AB191D0518005BFE0B /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108380191D0518005BFE0B /* tree.h */; };
+		521083AC191D0518005BFE0B /* uv-bsd.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108381191D0518005BFE0B /* uv-bsd.h */; };
+		521083AD191D0518005BFE0B /* uv-darwin.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108382191D0518005BFE0B /* uv-darwin.h */; };
+		521083AE191D0518005BFE0B /* uv-errno.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108383191D0518005BFE0B /* uv-errno.h */; };
+		521083AF191D0518005BFE0B /* uv-linux.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108384191D0518005BFE0B /* uv-linux.h */; };
+		521083B0191D0518005BFE0B /* ngx-queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108386191D0518005BFE0B /* ngx-queue.h */; };
+		521083B1191D0518005BFE0B /* stdint-msvc2008.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108387191D0518005BFE0B /* stdint-msvc2008.h */; };
+		521083B2191D0518005BFE0B /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108388191D0518005BFE0B /* tree.h */; };
+		521083B3191D0518005BFE0B /* uv-bsd.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108389191D0518005BFE0B /* uv-bsd.h */; };
+		521083B4191D0518005BFE0B /* uv-darwin.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210838A191D0518005BFE0B /* uv-darwin.h */; };
+		521083B5191D0518005BFE0B /* uv-linux.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210838B191D0518005BFE0B /* uv-linux.h */; };
+		521083B6191D0518005BFE0B /* uv-sunos.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210838C191D0518005BFE0B /* uv-sunos.h */; };
+		521083B7191D0518005BFE0B /* uv-unix.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210838D191D0518005BFE0B /* uv-unix.h */; };
+		521083B8191D0518005BFE0B /* uv-win.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210838E191D0518005BFE0B /* uv-win.h */; };
+		521083B9191D0518005BFE0B /* uv-sunos.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210838F191D0518005BFE0B /* uv-sunos.h */; };
+		521083BA191D0518005BFE0B /* uv-unix.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108390191D0518005BFE0B /* uv-unix.h */; };
+		521083BB191D0518005BFE0B /* uv-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108391191D0518005BFE0B /* uv-version.h */; };
+		521083BC191D0518005BFE0B /* uv-win.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108392191D0518005BFE0B /* uv-win.h */; };
+		521083BD191D0518005BFE0B /* uv.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108393191D0518005BFE0B /* uv.h */; };
+		521083BE191D0518005BFE0B /* v8-debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108394191D0518005BFE0B /* v8-debug.h */; };
+		521083BF191D0518005BFE0B /* v8-platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108395191D0518005BFE0B /* v8-platform.h */; };
+		521083C0191D0518005BFE0B /* v8-preparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108396191D0518005BFE0B /* v8-preparser.h */; };
+		521083C1191D0518005BFE0B /* v8-profiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108397191D0518005BFE0B /* v8-profiler.h */; };
+		521083C2191D0518005BFE0B /* v8-testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108398191D0518005BFE0B /* v8-testing.h */; };
+		521083C3191D0518005BFE0B /* v8-util.h in Headers */ = {isa = PBXBuildFile; fileRef = 52108399191D0518005BFE0B /* v8-util.h */; };
+		521083C4191D0518005BFE0B /* v8.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210839A191D0518005BFE0B /* v8.h */; };
+		521083C5191D0518005BFE0B /* v8config.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210839B191D0518005BFE0B /* v8config.h */; };
+		521083C6191D0518005BFE0B /* v8stdint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210839C191D0518005BFE0B /* v8stdint.h */; };
+		521083C7191D0518005BFE0B /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210839D191D0518005BFE0B /* zconf.h */; };
+		521083C8191D0518005BFE0B /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 5210839E191D0518005BFE0B /* zlib.h */; };
+		521083CA191D06DC005BFE0B /* SpotifyApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 521083C9191D06DC005BFE0B /* SpotifyApp.h */; };
+		521083CC191D090D005BFE0B /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521083CB191D090D005BFE0B /* ScriptingBridge.framework */; };
+		521083CE191D0911005BFE0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521083CD191D0911005BFE0B /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		52108364191D0453005BFE0B /* libmac-spotify.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libmac-spotify.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52108364191D0453005BFE0B /* mac-spotify.node */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "mac-spotify.node"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5210836C191D0497005BFE0B /* module.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = module.mm; sourceTree = "<group>"; };
+		52108371191D0518005BFE0B /* android-ifaddrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "android-ifaddrs.h"; sourceTree = "<group>"; };
+		52108372191D0518005BFE0B /* ares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ares.h; sourceTree = "<group>"; };
+		52108373191D0518005BFE0B /* ares_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ares_version.h; sourceTree = "<group>"; };
+		52108374191D0518005BFE0B /* common.gypi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = common.gypi; sourceTree = "<group>"; };
+		52108375191D0518005BFE0B /* config.gypi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.gypi; sourceTree = "<group>"; };
+		52108376191D0518005BFE0B /* nameser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nameser.h; sourceTree = "<group>"; };
+		52108377191D0518005BFE0B /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		52108378191D0518005BFE0B /* node_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node_buffer.h; sourceTree = "<group>"; };
+		52108379191D0518005BFE0B /* node_internals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node_internals.h; sourceTree = "<group>"; };
+		5210837A191D0518005BFE0B /* node_object_wrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node_object_wrap.h; sourceTree = "<group>"; };
+		5210837B191D0518005BFE0B /* node_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node_version.h; sourceTree = "<group>"; };
+		5210837D191D0518005BFE0B /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		5210837E191D0518005BFE0B /* pthread-fixes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pthread-fixes.h"; sourceTree = "<group>"; };
+		5210837F191D0518005BFE0B /* stdint-msvc2008.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "stdint-msvc2008.h"; sourceTree = "<group>"; };
+		52108380191D0518005BFE0B /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		52108381191D0518005BFE0B /* uv-bsd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-bsd.h"; sourceTree = "<group>"; };
+		52108382191D0518005BFE0B /* uv-darwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-darwin.h"; sourceTree = "<group>"; };
+		52108383191D0518005BFE0B /* uv-errno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-errno.h"; sourceTree = "<group>"; };
+		52108384191D0518005BFE0B /* uv-linux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-linux.h"; sourceTree = "<group>"; };
+		52108386191D0518005BFE0B /* ngx-queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ngx-queue.h"; sourceTree = "<group>"; };
+		52108387191D0518005BFE0B /* stdint-msvc2008.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "stdint-msvc2008.h"; sourceTree = "<group>"; };
+		52108388191D0518005BFE0B /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		52108389191D0518005BFE0B /* uv-bsd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-bsd.h"; sourceTree = "<group>"; };
+		5210838A191D0518005BFE0B /* uv-darwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-darwin.h"; sourceTree = "<group>"; };
+		5210838B191D0518005BFE0B /* uv-linux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-linux.h"; sourceTree = "<group>"; };
+		5210838C191D0518005BFE0B /* uv-sunos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-sunos.h"; sourceTree = "<group>"; };
+		5210838D191D0518005BFE0B /* uv-unix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-unix.h"; sourceTree = "<group>"; };
+		5210838E191D0518005BFE0B /* uv-win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-win.h"; sourceTree = "<group>"; };
+		5210838F191D0518005BFE0B /* uv-sunos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-sunos.h"; sourceTree = "<group>"; };
+		52108390191D0518005BFE0B /* uv-unix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-unix.h"; sourceTree = "<group>"; };
+		52108391191D0518005BFE0B /* uv-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-version.h"; sourceTree = "<group>"; };
+		52108392191D0518005BFE0B /* uv-win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uv-win.h"; sourceTree = "<group>"; };
+		52108393191D0518005BFE0B /* uv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uv.h; sourceTree = "<group>"; };
+		52108394191D0518005BFE0B /* v8-debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-debug.h"; sourceTree = "<group>"; };
+		52108395191D0518005BFE0B /* v8-platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-platform.h"; sourceTree = "<group>"; };
+		52108396191D0518005BFE0B /* v8-preparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-preparser.h"; sourceTree = "<group>"; };
+		52108397191D0518005BFE0B /* v8-profiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-profiler.h"; sourceTree = "<group>"; };
+		52108398191D0518005BFE0B /* v8-testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-testing.h"; sourceTree = "<group>"; };
+		52108399191D0518005BFE0B /* v8-util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-util.h"; sourceTree = "<group>"; };
+		5210839A191D0518005BFE0B /* v8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v8.h; sourceTree = "<group>"; };
+		5210839B191D0518005BFE0B /* v8config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v8config.h; sourceTree = "<group>"; };
+		5210839C191D0518005BFE0B /* v8stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v8stdint.h; sourceTree = "<group>"; };
+		5210839D191D0518005BFE0B /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		5210839E191D0518005BFE0B /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		521083C9191D06DC005BFE0B /* SpotifyApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyApp.h; sourceTree = "<group>"; };
+		521083CB191D090D005BFE0B /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		521083CD191D0911005BFE0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -15,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521083CE191D0911005BFE0B /* Foundation.framework in Frameworks */,
+				521083CC191D090D005BFE0B /* ScriptingBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -24,6 +123,10 @@
 		5210835B191D0453005BFE0B = {
 			isa = PBXGroup;
 			children = (
+				521083CD191D0911005BFE0B /* Foundation.framework */,
+				521083CB191D090D005BFE0B /* ScriptingBridge.framework */,
+				52108370191D0518005BFE0B /* node */,
+				5210836B191D0488005BFE0B /* Source */,
 				52108365191D0453005BFE0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -31,9 +134,86 @@
 		52108365191D0453005BFE0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52108364191D0453005BFE0B /* libmac-spotify.dylib */,
+				52108364191D0453005BFE0B /* mac-spotify.node */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5210836B191D0488005BFE0B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5210836C191D0497005BFE0B /* module.mm */,
+				521083C9191D06DC005BFE0B /* SpotifyApp.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		52108370191D0518005BFE0B /* node */ = {
+			isa = PBXGroup;
+			children = (
+				52108371191D0518005BFE0B /* android-ifaddrs.h */,
+				52108372191D0518005BFE0B /* ares.h */,
+				52108373191D0518005BFE0B /* ares_version.h */,
+				52108374191D0518005BFE0B /* common.gypi */,
+				52108375191D0518005BFE0B /* config.gypi */,
+				52108376191D0518005BFE0B /* nameser.h */,
+				52108377191D0518005BFE0B /* node.h */,
+				52108378191D0518005BFE0B /* node_buffer.h */,
+				52108379191D0518005BFE0B /* node_internals.h */,
+				5210837A191D0518005BFE0B /* node_object_wrap.h */,
+				5210837B191D0518005BFE0B /* node_version.h */,
+				5210837C191D0518005BFE0B /* openssl */,
+				5210837E191D0518005BFE0B /* pthread-fixes.h */,
+				5210837F191D0518005BFE0B /* stdint-msvc2008.h */,
+				52108380191D0518005BFE0B /* tree.h */,
+				52108381191D0518005BFE0B /* uv-bsd.h */,
+				52108382191D0518005BFE0B /* uv-darwin.h */,
+				52108383191D0518005BFE0B /* uv-errno.h */,
+				52108384191D0518005BFE0B /* uv-linux.h */,
+				52108385191D0518005BFE0B /* uv-private */,
+				5210838F191D0518005BFE0B /* uv-sunos.h */,
+				52108390191D0518005BFE0B /* uv-unix.h */,
+				52108391191D0518005BFE0B /* uv-version.h */,
+				52108392191D0518005BFE0B /* uv-win.h */,
+				52108393191D0518005BFE0B /* uv.h */,
+				52108394191D0518005BFE0B /* v8-debug.h */,
+				52108395191D0518005BFE0B /* v8-platform.h */,
+				52108396191D0518005BFE0B /* v8-preparser.h */,
+				52108397191D0518005BFE0B /* v8-profiler.h */,
+				52108398191D0518005BFE0B /* v8-testing.h */,
+				52108399191D0518005BFE0B /* v8-util.h */,
+				5210839A191D0518005BFE0B /* v8.h */,
+				5210839B191D0518005BFE0B /* v8config.h */,
+				5210839C191D0518005BFE0B /* v8stdint.h */,
+				5210839D191D0518005BFE0B /* zconf.h */,
+				5210839E191D0518005BFE0B /* zlib.h */,
+			);
+			name = node;
+			path = ../../../../../../usr/local/include/node;
+			sourceTree = "<group>";
+		};
+		5210837C191D0518005BFE0B /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				5210837D191D0518005BFE0B /* opensslconf.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		52108385191D0518005BFE0B /* uv-private */ = {
+			isa = PBXGroup;
+			children = (
+				52108386191D0518005BFE0B /* ngx-queue.h */,
+				52108387191D0518005BFE0B /* stdint-msvc2008.h */,
+				52108388191D0518005BFE0B /* tree.h */,
+				52108389191D0518005BFE0B /* uv-bsd.h */,
+				5210838A191D0518005BFE0B /* uv-darwin.h */,
+				5210838B191D0518005BFE0B /* uv-linux.h */,
+				5210838C191D0518005BFE0B /* uv-sunos.h */,
+				5210838D191D0518005BFE0B /* uv-unix.h */,
+				5210838E191D0518005BFE0B /* uv-win.h */,
+			);
+			path = "uv-private";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -43,6 +223,49 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521083B8191D0518005BFE0B /* uv-win.h in Headers */,
+				521083C1191D0518005BFE0B /* v8-profiler.h in Headers */,
+				521083C4191D0518005BFE0B /* v8.h in Headers */,
+				521083B6191D0518005BFE0B /* uv-sunos.h in Headers */,
+				521083C6191D0518005BFE0B /* v8stdint.h in Headers */,
+				521083C3191D0518005BFE0B /* v8-util.h in Headers */,
+				521083BE191D0518005BFE0B /* v8-debug.h in Headers */,
+				521083B4191D0518005BFE0B /* uv-darwin.h in Headers */,
+				521083B2191D0518005BFE0B /* tree.h in Headers */,
+				521083B0191D0518005BFE0B /* ngx-queue.h in Headers */,
+				521083BB191D0518005BFE0B /* uv-version.h in Headers */,
+				521083B1191D0518005BFE0B /* stdint-msvc2008.h in Headers */,
+				521083BD191D0518005BFE0B /* uv.h in Headers */,
+				521083AB191D0518005BFE0B /* tree.h in Headers */,
+				521083A3191D0518005BFE0B /* node.h in Headers */,
+				521083A5191D0518005BFE0B /* node_internals.h in Headers */,
+				521083BC191D0518005BFE0B /* uv-win.h in Headers */,
+				521083B3191D0518005BFE0B /* uv-bsd.h in Headers */,
+				521083A1191D0518005BFE0B /* ares_version.h in Headers */,
+				521083AF191D0518005BFE0B /* uv-linux.h in Headers */,
+				521083AD191D0518005BFE0B /* uv-darwin.h in Headers */,
+				5210839F191D0518005BFE0B /* android-ifaddrs.h in Headers */,
+				521083BF191D0518005BFE0B /* v8-platform.h in Headers */,
+				521083A2191D0518005BFE0B /* nameser.h in Headers */,
+				521083C7191D0518005BFE0B /* zconf.h in Headers */,
+				521083C5191D0518005BFE0B /* v8config.h in Headers */,
+				521083A6191D0518005BFE0B /* node_object_wrap.h in Headers */,
+				521083A7191D0518005BFE0B /* node_version.h in Headers */,
+				521083A8191D0518005BFE0B /* opensslconf.h in Headers */,
+				521083B9191D0518005BFE0B /* uv-sunos.h in Headers */,
+				521083B5191D0518005BFE0B /* uv-linux.h in Headers */,
+				521083A4191D0518005BFE0B /* node_buffer.h in Headers */,
+				521083AA191D0518005BFE0B /* stdint-msvc2008.h in Headers */,
+				521083A0191D0518005BFE0B /* ares.h in Headers */,
+				521083CA191D06DC005BFE0B /* SpotifyApp.h in Headers */,
+				521083A9191D0518005BFE0B /* pthread-fixes.h in Headers */,
+				521083C8191D0518005BFE0B /* zlib.h in Headers */,
+				521083AE191D0518005BFE0B /* uv-errno.h in Headers */,
+				521083C2191D0518005BFE0B /* v8-testing.h in Headers */,
+				521083B7191D0518005BFE0B /* uv-unix.h in Headers */,
+				521083AC191D0518005BFE0B /* uv-bsd.h in Headers */,
+				521083BA191D0518005BFE0B /* uv-unix.h in Headers */,
+				521083C0191D0518005BFE0B /* v8-preparser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +286,7 @@
 			);
 			name = "mac-spotify";
 			productName = "mac-spotify";
-			productReference = 52108364191D0453005BFE0B /* libmac-spotify.dylib */;
+			productReference = 52108364191D0453005BFE0B /* mac-spotify.node */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -97,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5210836E191D0497005BFE0B /* module.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,16 +400,56 @@
 		52108369191D0453005BFE0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = node;
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = mh_bundle;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-std=c++1y",
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		5210836A191D0453005BFE0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = node;
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = mh_bundle;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-std=c++1y",
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
