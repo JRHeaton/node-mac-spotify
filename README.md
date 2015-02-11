@@ -6,40 +6,40 @@ This is a module that binds the controlling functionality that Spotify exposes v
 ##API
 
 ###Settings
-####.volume
+####`.volume`
 Set/get the playback volume.
 
 
-####.shuffling
+####`.shuffling`
 Enable/disable shuffling.
 
 
-####.repeating
+####`.repeating`
 Enable/disable repeating.
 
 
 
 ###Track Control
 
-####play() 
+####`play()` 
 Begins audio playback.
 
 
-####pause()
+####`pause()`
 Pauses audio playback.
 
 
-####playpause()
+####`playpause()`
 Toggles audio playback.
 
 
-####next()
+####`next()`
 Skips to the next song in the current playlist/album.
 
 
-####previous()
+####`previous()`
 Returns to the previous song in the current playlist/album.
 
 
-####playTrack(*uri* [, *context* ])
+####`playTrack(*uri* [, *context* ])`
 Plays the track at the given `uri`. An **optional** parameter, `context`, can be given.
